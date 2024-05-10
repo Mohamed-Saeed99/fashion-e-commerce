@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(https://media.istockphoto.com/id/1199014988/photo/shopping-woman.jpg?b=1&s=612x612&w=0&k=20&c=1Q-SkBdafTBUcb4XTGU7wFGSiRRfCMb6llzGllLdbr4=) ;
+    background-repeat: no-repeat;
+       background-size: cover;
+
+}
+        
+        h2{
+            color: #fff;
+            padding-top:10px ;
+            font-size: 2rem;
+            border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+            margin: 50px;
+        }
+.login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background-color:rgba(33, 42, 47, 0.644);
+    width: 500px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    height: 600px;
+   box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+
+
+
+.password,.email,.name{
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1rem;
+}
+button{
+    height: 40px;
+    padding: 10px 20px;
+    width: 50%;
+    margin-top: 50px;
+    border-radius:13px ;
+    color: #fff;
+    
+    background-color:rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 1rem;
+
+
+}
+label{
+    color: white;
+    font-size: larger;
+    display: block;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color:white ;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  black;
+    transition: 0.4s ease-in-out;
+}
+::placeholder{
+    color: white;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+  
