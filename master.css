@@ -6,10 +6,11 @@ body {
 }
 
 #product-details-container {
+    display: flex;
     position: relative;
     top: 100px;
-    max-width: 600px;
-    margin: 20px auto;
+    /* max-width: 600px; */
+    margin: 20px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -19,12 +20,11 @@ body {
 #product-name {
     font-size: 24px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 #product-image {
     max-width: 100%;
-    height: auto;
+    height: 600px;
     margin-bottom: 20px;
 }
 
